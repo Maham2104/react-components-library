@@ -1,17 +1,13 @@
 📘 React Components Library
-📌 Project Description
 
+📌 Project Description
 This project is a React Components Library built using React, TailwindCSS, Framer Motion, and Lucide Icons.
 It includes reusable, customizable, and responsive UI components such as:
 
 🌙 Navbar with Dark Mode toggle
-
 🎨 Multiple Button variants (primary, secondary, outline, ghost) with loading state
-
 🧩 Card component with header, body, and footer
-
 🌀 Modal component with smooth animations
-
 🔄 Simulated API call example using a Loading Button
 
 The goal is to provide ready-to-use, styled components that can be reused across applications.
@@ -40,11 +36,9 @@ import Button from "./components/Button";
 import Card from "./components/Card";
 import Modal from "./components/Modal";
 import { Plus } from "lucide-react";
-
 export default function App() {
   const [isOpen, setIsOpen] = useState(false);
   const [loading, setLoading] = useState(false);
-
   const handleFakeRequest = () => {
     setLoading(true);
     setTimeout(() => {
@@ -52,7 +46,6 @@ export default function App() {
       alert("✅ Task Completed!");
     }, 2000);
   };
-
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
       {/* Navbar with dark mode toggle */}
