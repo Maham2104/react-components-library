@@ -20,18 +20,15 @@ The goal is to provide ready-to-use, styled components that can be reused across
 ⚙️ Installation Instructions
 
 - Clone the repository
-- 
-git clone https://github.com/Maham2104/react-components-library.git
+- git clone https://github.com/Maham2104/react-components-library.git
 
 cd react-components-library
 
 - Install dependencies
-- 
-npm install
+- npm install
 
 - Run the development server
-- 
-npm run dev
+- npm run dev
 
 - Open your browser at 👉 http://localhost:5173
 
